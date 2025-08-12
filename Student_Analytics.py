@@ -26,7 +26,7 @@ while True:
         roll_no[roll_number] = name
         student_key = (roll_number, name)
 
-        print("Enter marks in order")
+        print("Enter marks for each subject (values between 1 and 100):")
         marks = []
         subjects = ["Math", "Science", "English"]
         for subject in subjects:
